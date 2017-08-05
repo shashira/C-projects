@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
   int a, b, c;
   float avg;
@@ -14,4 +14,6 @@ void main()
   
   /* print the output */
   printf("Average of three numbers : %f", avg); 
+
+  return 0;
 }
